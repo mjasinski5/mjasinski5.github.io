@@ -1,34 +1,12 @@
-# Run It
+# hackaton-webangular
 
-1. Set proper env, prod or stage: `export NODE_ENV=stage`
-2. Start it on port 3000: `node server.js`
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.12.1.
 
-# Unit Tests
+## Build & development
 
-1. Set proper env, prod or stage: `export NODE_ENV=stage`
-2. Start tests: `npm test`
+Run `grunt` for building and `grunt serve` for preview.
 
-# Endpoints for Blog Feeds
+## Testing
 
-```
-http://feedservice.yaas.io/feed/{location}
-```
-where ```location``` is **internal** or **external**
-
-* http://feedservice.yaas.io/external<br/>
-* http://feedservice.yaas.io/internal<br/>
-
-# Plans
-
-* [STAGE Bamboo Plan]<br/>
-* [PROD Bamboo Plan]
-
-[STAGE Bamboo Plan]:https://bamboo.hybris.com/browse/PTW-FS
-[PROD Bamboo Plan]:https://bamboo.hybris.com/browse/PTW-NOD
-
-# Feeds
-
-* https://feeds.feedburner.com/yaas/devportalblog - PROD external blogs
-* https://feeds.feedburner.com/yaas/internaldevportalblog - PROD internal blogs
-* https://feeds.feedburner.com/yaas/devportalblog-stage - STAGE external blogs
-* https://feeds.feedburner.com/yaas/internaldevportalblog-stage - STAGE internal blogs
+Running `grunt test` will run the unit tests with karma.
